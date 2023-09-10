@@ -22,11 +22,6 @@
 	height: 70px;
 }
 
-.header {
-	/* height: 100%; */
-	background-color: #b88e2f;
-}
-
 .header-image {
 	background-image: url("../../assets/header.png");
 	width: auto;
@@ -42,6 +37,5 @@
 .header-right {
 	display: flex;
 	flex: 1;
-	justify-content: start;
 	align-items: center;
 }
