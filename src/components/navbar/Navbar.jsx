@@ -10,7 +10,7 @@ import cart from '../../assets/cart.png';
 
 const Navbar = () => {
   return (
-      <nav className="nav-bar">
+      <div className="nav-bar">
       <div className="navbar-links">
       <div className="logo">
         <img src={logoIcon} alt="logo" className="logo-icon" />
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
 
         </div>  
-     </nav>
+     </div>
       
       
    
