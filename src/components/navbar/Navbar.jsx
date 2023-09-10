@@ -15,10 +15,6 @@ const Navbar = () => {
       <div className="logo">
         <img src={logoIcon} alt="logo" className="logo-icon" />
         <img src={logo} alt="logo" className="logo-" />
-        <img src={profile} alt="logo" />
-        <img src={search} alt="logo" />
-        <img src={like} alt="logo" />
-        <img src={cart} alt="logo"  />
         </div>
 
 
@@ -27,6 +23,13 @@ const Navbar = () => {
           <p><a href="#Shop">Shop</a></p>
           <p><a href="#About">About</a></p>
           <p><a href="#Contact">Contact</a></p>
+        </div>
+
+        <div className='navbar-icons'>
+        <img src={profile} alt="logo" />
+        <img src={search} alt="logo" />
+        <img src={like} alt="logo" />
+        <img src={cart} alt="logo"  />
         </div>
 
         </div>  
