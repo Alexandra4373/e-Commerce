@@ -1,0 +1,25 @@
+.box{
+    box-sizing: border-box;
+    background-color: #FFF3E3;
+    padding-bottom: 80px;
+    width: 50%;
+}
+
+
+.text-{
+    color: #B88E2F;
+    font-size: 52px;
+}
+
+.buy{
+    border: 1px solid #B88E2F; 
+    padding: 10px 20px; 
+    background-color: #B88E2F; 
+    color: #ffff; 
+    cursor: pointer; 
+    font-size: 16px; 
+    text-align: center; 
+    border-radius: 1px; 
+    width:200px;
+    height:70px;
+}
