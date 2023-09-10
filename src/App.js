@@ -1,9 +1,16 @@
+import React from 'react';
 import './App.css';
 
-function App() {
+// import {Browse, Explore, Footer, Header, Navbar, Products, Share} from './components';
+import Navbar from './components';
+// import {About, Shop} from './containers';
+
+const App = () => {
   return (
     <div className="App">    
-    <h1>Hello React</h1> 
+    <div>
+      <Navbar/>
+    </div>
     </div>
   );
 }
