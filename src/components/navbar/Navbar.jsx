@@ -19,13 +19,16 @@ const Navbar = () => {
         <img src={search} alt="logo" />
         <img src={like} alt="logo" />
         <img src={cart} alt="logo"  />
-        {/* </div>
-      <div className="navbar-links_container"> */}
-          <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">Shop</a></p>
-          <p><a href="#possibility">About</a></p>
-          <p><a href="#features">Contact</a></p>
         </div>
+
+
+      <div className="navbar-links_container">
+          <p><a href="#home">Home</a></p>
+          <p><a href="#Shop">Shop</a></p>
+          <p><a href="#About">About</a></p>
+          <p><a href="#Contact">Contact</a></p>
+        </div>
+
         </div>  
      </nav>
       
