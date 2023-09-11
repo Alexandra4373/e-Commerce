@@ -1,6 +1,6 @@
-import React from "react";
-import "./header.css";
-// import header from "../../assets/header.png";
+import React from 'react'
+import './header.css'
+import header from '../../assets/header.png';
 
 const Header = () => {
 	return (
@@ -28,4 +28,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default Header
