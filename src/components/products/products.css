@@ -4,6 +4,11 @@
     margin: 0 auto;
     padding: 20px;
   }
+
+  /* .header-products{
+    display: flex;
+    text-align: center;
+  } */
   
   .md\:grid {
     display: grid;
