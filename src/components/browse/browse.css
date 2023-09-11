@@ -1,8 +1,8 @@
 
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 10px; */
   }
   
   .md\:grid {
@@ -11,14 +11,12 @@
     gap: 20px;
   }
   
- p{
-  justify-content: center;
- }
+
   .product-item {
-    background-color: #f7f7f7;
+    background-color: #F4F5F7;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     text-align: center;
   }
   
@@ -39,7 +37,7 @@
   
   .product-image img {
     max-width: 1200px;
-    max-height: 200px;
+    max-height: 1200px;
     object-fit: cover;
     /* border-radius: 8px; */
   }

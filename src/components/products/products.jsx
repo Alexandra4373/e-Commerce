@@ -40,6 +40,9 @@ const Browse = () => {
           </div>
         ))}
       </div>
+      <div className="show-more--button">
+          <button className="showmore">Show More</button>
+        </div>
     </div>
 	
   );
