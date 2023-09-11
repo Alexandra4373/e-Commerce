@@ -1,16 +1,18 @@
-import image1 from "../../assets/image1.png";
-import image2 from "../../assets/image2.png";
-import image3 from "../../assets/image3.png";
-import image4 from "../../assets/image3.png";
-import image5 from "../../assets/image3.png";
-import image6 from "../../assets/image3.png";
-import image7 from "../../assets/image3.png";
+import syltherine from '../../assets/Shop/syltherine.png';
+import leviosa from '../../assets/Shop/leviosa.png';
+import lolito from '../../assets/Shop/lolito.png';
+import respira from '../../assets/Shop/respira.png';
+import grifo from '../../assets/Shop/grifo.png';
+import muggo from '../../assets/Shop/muggo.png';
+import pingky from '../../assets/Shop/pingky.png';
+import potty from '../../assets/Shop/potty.png';
+
 
 const HomeImagesData = [
 	{
 		id: 1,
 		name: "Syltherine",
-		image: image1,
+		image: syltherine,
 		details: "Stylish cafe chair",
 		sellingprice: "Rp 2.500.000",
 		initialprice: "Rp 3.500.000",
@@ -18,7 +20,7 @@ const HomeImagesData = [
 	{
 		id: 2,
 		name: "Leviosa",
-		image: image2,
+		image: leviosa,
 		details: "Stylish cafe chair",
 		// initialprice: "15.00",
 		sellingprice: "Rp 2.500.000",
@@ -26,7 +28,7 @@ const HomeImagesData = [
 	{
 		id: 3,
 		name: "lolito",
-		image: image2, // Replace with the actual image URL
+		image: lolito, // Replace with the actual image URL
 		details: "Luxury big sofa",
 		sellingprice: "Rp 7.000.000",
 		initialprice: "Rp 14.000.000",
@@ -34,7 +36,7 @@ const HomeImagesData = [
 	{
 		id: 4,
 		name: "Respira",
-		image: image3,
+		image: respira,
 		details: "Outdoor bar table and stool",
 		sellingprice: "Rp 500.000",
 		// initialprice: "Rp 14.000.000",
@@ -42,7 +44,7 @@ const HomeImagesData = [
 	{
 		id: 5,
 		name: "Grifo",
-		image: image4,
+		image: grifo,
 		details: "Night lamp",
 		sellingprice: "Rp 1.500.000",
 		// initialprice: "14.00",
@@ -50,7 +52,7 @@ const HomeImagesData = [
 	{
 		id: 6,
 		name: "Muggo",
-		image: image5,
+		image: muggo,
 		details: "Small mug",
 		sellingprice: "Rp 150.000",
 		// initialprice: "11.75",
@@ -58,7 +60,7 @@ const HomeImagesData = [
 	{
 		id: 7,
 		name: "Pingky",
-		image: image6,
+		image: pingky,
 		details: "Small mug",
 		sellingprice: "Rp 7.000.0000",
 		initialprice: "Rp 14.000.000",
@@ -66,7 +68,7 @@ const HomeImagesData = [
 	{
 		id: 8,
 		name: "Potty",
-		image: image7,
+		image: potty,
 		details: "Minimalist",
 		sellingprice: "Rp 500.000",
 	},
