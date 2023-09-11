@@ -6,7 +6,7 @@ import profile from '../../assets/profile.png';
 import search from '../../assets/search.png';
 import like from '../../assets/like.png';
 import cart from '../../assets/cart.png';
-import More from '../../assets/more.png';
+// import More from '../../assets/more.png';
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
 
       <div className="navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#Shop">Shop</a></p>
+          <p><a href="Shop.jsx">Shop</a></p>
           <p><a href="#About">About</a></p>
           <p><a href="#Contact">Contact</a></p>
         </div>
@@ -33,9 +33,9 @@ const Navbar = () => {
         <img src={cart} alt="logo"  />
         </div>
         
-        <div className='navbar-smallscreen'>
+        {/* <div className='navbar-smallscreen'>
           <img src={More} alt='logo' color="#0000" fontSize={50} onclick={()=>{}}/>
-        </div>
+        </div> */}
 
         </div>  
      </div>
