@@ -59,4 +59,12 @@
     gap: 40px;
   }
   
+
+  @media screen and (max-width:1150px) {
+    .navbar-links_container{
+      display: none;
+    }
+
+    
+  }
   

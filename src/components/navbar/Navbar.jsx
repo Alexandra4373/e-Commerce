@@ -6,7 +6,7 @@ import profile from '../../assets/profile.png';
 import search from '../../assets/search.png';
 import like from '../../assets/like.png';
 import cart from '../../assets/cart.png';
-import GiHamburgerMenu from 'react-icons';
+import More from '../../assets/more.png';
 
 
 const Navbar = () => {
@@ -33,9 +33,9 @@ const Navbar = () => {
         <img src={cart} alt="logo"  />
         </div>
         
-        {/* <div className='navbar-smallscreen'>
-          <GiHamburgerMenu color="#0000" fontSize={27} onclick={()=>{}}/>
-        </div> */}
+        <div className='navbar-smallscreen'>
+          <img src={More} alt='logo' color="#0000" fontSize={50} onclick={()=>{}}/>
+        </div>
 
         </div>  
      </div>
