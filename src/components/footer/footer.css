@@ -1,0 +1,15 @@
+.footer-heading{
+    display: flex;
+    width: 50%;
+}
+
+.footer-links_container{
+    flex: 1;
+}
+
+.footer-heading-help{
+    display: flex;
+    flex: 1;
+    float:right;
+
+}

@@ -3,6 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer-heading'>
+      <div className='hr'>
+        <hr/>
+      </div>
       <div className='footer-heading--name'>
         <h1>Funiro.</h1>
 
