@@ -13,16 +13,16 @@ const Browse = () => {
 		</div>
       <div className="md:grid md:grid-cols-4 sm:flex sm:flex-wrap justify-center gap-5">
         {BrowseHomeData.map((product) => (
-          <div className="product-item" key={product.id}>
+          <div className="product--item" key={product.id}>
             {/* Product Image */}
-            <div className="product-image">
+            <div className="product--image">
               <img src={product.image} alt={product.name} />
             </div>
 
             {/* Product Information */}
-            <div className="product-info">
+            <div className="product--infor">
               {/* Product Name */}
-              <p className="product-name">{product.name}</p>
+              <p className="product--name">{product.name}</p>
 
             </div>
           </div>
