@@ -1,7 +1,9 @@
 import React from 'react'
+import './footer.css';
 
 const Footer = () => {
   return (
+    <div className='flex-container'>
     <div className='footer-heading'>
       <div className='hr'>
         <hr/>
@@ -33,6 +35,9 @@ const Footer = () => {
   
 
         <div className='footer-heading-newsletter'>
+          {/* <div className='newsletter-center'> */}
+            <p>Newsletter</p>
+          {/* </div> */}
           
           <input type='text' placeholder='Enter Your Email Address'></input>
           <button type='button'>SUBSCRIBE</button>
@@ -45,6 +50,7 @@ const Footer = () => {
 
       </div>
 
+    </div>
     </div>
     
    

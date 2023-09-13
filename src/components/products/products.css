@@ -72,8 +72,8 @@
 
   .showmore{
     display: flex;
-    justify-content: center; /*vertically aligned*/
-    align-items: center; /*horizontally aligned*/
+    justify-content: center; /*horizontally aligned*/
+    
 
   }
 
