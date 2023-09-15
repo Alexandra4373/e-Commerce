@@ -17,10 +17,19 @@ const Explore = () => {
         <button type='button' className='explore__button'>Explore more</button>
       </div>
 
+
+      <div className="bottom__container">
+
       <div className='container'>
         <div className='sub-container'>
         <p>01 <hr/> Bed Room</p>
+        </div>
+        <div className="bottom-content">
         <h2>Inner Peace</h2>
+        </div>
+        </div>
+
+        <div className="arrow__flex-end">
         <img src={RightArrowIcon} alt='logo' />
         </div>
 
@@ -36,9 +45,11 @@ const Explore = () => {
 
       
     </div>
+
+    </div>
   
       
-    </div>
+    
   )
 }
 
