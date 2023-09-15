@@ -3,17 +3,16 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className='flex-container'>
+
+    <div className='flex-container__bg'>
+      <div className='flex-container'>
     <div className='footer-heading'>
       <div className='hr'>
         <hr/>
       </div>
       <div className='footer-heading--name'>
-        <h1>Funiro.</h1>
-
-        <div className='footer-heading--location'>
+          <h1>Funiro.</h1>
           <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
-
         </div>
 
         <div className="footer-links_container">
@@ -35,13 +34,15 @@ const Footer = () => {
   
 
         <div className='footer-heading-newsletter'>
-          {/* <div className='newsletter-center'> */}
+          <div className='newsletter-center'>
             <p>Newsletter</p>
-          {/* </div> */}
+          </div>
           
-          <input type='text' placeholder='Enter Your Email Address'></input>
+          <div className='newsletter-container'>
+            <input type='text' placeholder='Enter Your Email Address'></input>
           <button type='button'>SUBSCRIBE</button>
         </div>
+          </div>
 
         <div className='footer-copyright'>
           <p>2023 furino. All rights reserved</p>
@@ -52,6 +53,7 @@ const Footer = () => {
 
     </div>
     </div>
+    
     
    
       

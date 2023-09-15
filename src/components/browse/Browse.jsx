@@ -20,7 +20,7 @@ const Browse = () => {
             </div>
 
             {/* Product Information */}
-            <div className="product--infor">
+            <div className="product--info">
               {/* Product Name */}
               <p className="product--name">{product.name}</p>
 
