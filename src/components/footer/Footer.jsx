@@ -5,6 +5,7 @@ const Footer = () => {
 	return (
 		// This contains the division and copyright
 		<div className="footer">
+			{/* <hr/> */}
 			{/* This container contains only the divisions */}
 			<div className="footer-container">
 				{/* Footer 1st */}
