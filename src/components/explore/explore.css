@@ -47,6 +47,8 @@
     background-image: url("../../assets/Credenza.png");
 	width: 30%;
     margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 	/* height: 80%; */
     /* flex-direction: column;
     justify-content: center;*/
@@ -95,10 +97,11 @@
 
 .explore__gallery-images{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding-left: 10px;
     /* padding-right: 0px; */
     margin-top: 20px;
+    justify-content: flex-end;
 }
 
 .explore__gallery-images img{
