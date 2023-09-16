@@ -18,7 +18,7 @@ const Explore = () => {
       </div>
 
 
-      <div className="bottom__container">
+
 
       <div className='container'>
         <p>01 <hr/> Bed Room</p>
@@ -43,7 +43,7 @@ const Explore = () => {
       
     </div>
 
-    </div>
+  
   
       
     
