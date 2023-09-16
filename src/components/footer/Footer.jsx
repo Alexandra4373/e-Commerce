@@ -5,11 +5,11 @@ const Footer = () => {
 	return (
 		// This contains the division and copyright
 		<div className="footer">
-			{/* <hr/> */}
 			{/* This container contains only the divisions */}
 			<div className="footer-container">
 				{/* Footer 1st */}
 				<div className="footer-heading--name">
+				<hr/>
 					<h1>Funiro.</h1>
 					<p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
 				</div>
@@ -58,9 +58,11 @@ const Footer = () => {
 				</div>
 			</div>
 
+
 			{/* Since copyright down, it doesn't form part of the division */}
 
 			<div className="footer-copyright">
+			<hr/>
 				<p>2023 furino. All rights reserved</p>
 			</div>
 		</div>
