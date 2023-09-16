@@ -8,7 +8,7 @@ const Footer = () => {
 			{/* This container contains only the divisions */}
 			<div className="footer-container">
 				{/* Footer 1st */}
-				<div className="footer-heading--name">
+				<div className="footer-heading__name">
 				<hr/>
 					<h1>Funiro.</h1>
 					<p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
