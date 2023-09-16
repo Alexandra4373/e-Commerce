@@ -62,6 +62,9 @@
 .content p , h2{
     display: flex;
     align-items: flex-end;
+    background-color: #FFFFFF;
+    /* width: 40%;
+    height: 30%; */
 }
 
 /* .sub-container{
