@@ -49,10 +49,12 @@
     margin-top: 20px;
 	/* height: 80%; */
     /* flex-direction: column;
-    justify-content: center;
-    align-items: flex-end; */
-
+    justify-content: center;*/
+    align-items: flex-end; 
     
+}
+.content img{
+    background-color: #B88E2F;
 }
 
 .content p , h2{
