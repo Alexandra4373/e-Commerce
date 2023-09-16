@@ -1,3 +1,25 @@
+.header-products{
+  display: block;
+  justify-content: center;
+}
+
+/* .header-products p{
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+}
+
+.products{
+  display: flex;
+  align-items:flex-start;
+  text-align: center;
+  justify-content: center;
+
+} */
+
+
+
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;

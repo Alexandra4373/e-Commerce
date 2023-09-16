@@ -7,8 +7,8 @@ const Browse = () => {
 	
     <div className="container my-20">
 		<div className="header-products">
-			<h1 className="products">Browse that range</h1>
-            <p className="sub-heading"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<h1>Browse that range</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 		</div>
       <div className="grid-container">
