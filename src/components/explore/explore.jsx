@@ -1,9 +1,9 @@
 import React from "react"
 import "./explore.css";
-// import Crendenza from '../../assets/Credenza.png'
+import Crendenza from '../../assets/Credenza.png'
 import ChaiseLounge from '../../assets/Chaise Lounge.png'
 import ChinaCabinet from '../../assets/China Cabinet.png'
-// import RightArrowIcon from '../../assets/right arrow.png'
+import RightArrowIcon from '../../assets/right arrow.png'
 
 
 
@@ -20,20 +20,20 @@ const Explore = () => {
 
 
 
-      <div className='container'>
+      <div className='content'>
         <p>01 <hr/> Bed Room</p>
         <h2>Inner Peace</h2>
+        <img src={RightArrowIcon} alt='logo' />
         </div>
         
 
-        {/* <div className="arrow__flex-end">
-        <img src={RightArrowIcon} alt='logo' />
-        </div> */}
+      
+    
 
         <div className='explore__gallery-images'>
         {/* <img src={Crendenza} alt='logo' /> */}
         {/* <img src={RightArrowIcon} alt='logo'  className="arrow-bottom"/> */}
-        <img src={ChaiseLounge} alt='logo' className="gallery-image__height" />
+        <img src={ChaiseLounge} alt='logo'  />
         <img src={ChinaCabinet} alt='logo' />  
           
        
