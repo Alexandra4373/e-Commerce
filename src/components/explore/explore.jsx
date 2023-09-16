@@ -4,6 +4,7 @@ import Crendenza from "../../assets/Credenza.png";
 import ChaiseLounge from "../../assets/Chaise Lounge.png";
 import ChinaCabinet from "../../assets/China Cabinet.png";
 import RightArrowIcon from "../../assets/right arrow.png";
+import Indicator from '../../assets/Indicator.png';
 
 const Explore = () => {
 	return (
@@ -38,6 +39,7 @@ const Explore = () => {
 				{/* <img src={Crendenza} alt='logo' /> */}
 				{/* <img src={RightArrowIcon} alt='logo'  className="arrow-bottom"/> */}
 				<img src={ChaiseLounge} alt="logo" />
+				{/* <img src={Indicator} alt="logo" className="indicator"/> */}
 				<img src={ChinaCabinet} alt="logo" />
 			</div>
 		</div>

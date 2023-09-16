@@ -21,6 +21,8 @@
   }
 
   .share-gallery{
-    display: flex;
+    /* display: flex; */
     gap: 20px;
   }
+
+  

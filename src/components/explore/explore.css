@@ -116,3 +116,10 @@ h2 {
 .explore__gallery-images img {
 	height: 85%;
 }
+
+.indicator{
+	display: flex;
+	align-items: flex-end;
+	width: 50%;
+	height: 50%;
+}
