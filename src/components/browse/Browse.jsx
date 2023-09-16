@@ -6,7 +6,7 @@ const Browse = () => {
   return (
 	
     <div className="container my-20">
-		<div className="header-products">
+		<div className="browse-header__center">
 			<h1>Browse that range</h1>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
