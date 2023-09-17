@@ -1,19 +1,28 @@
 import React from 'react';
 import './App.css';
+import {Routes, Route} from "react-router-dom";
+import {Home, Shop, About, Contact} from './containers';
 
-import Home from './containers';
-// import { Navbar, Header ,Footer,  Share} from './components';
-// import {About, Shop} from './containers';
 
 const App = () => {
   return (
-    <div className="App">   
-    <Home/> 
-      {/* <Navbar/>
-      <Header/>
-      <Share/>
-      <Footer/> */}
-    </div>
+    <React.Fragment>
+			<Routes>
+				<Route path="" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/shop" element={<Shop />} />
+				<Route path="/team" element={<Contact/>} />
+				
+			</Routes>
+		</React.Fragment>
+    // <div className="App">   
+    // <Home/> 
+    //   <Navbar/>
+    //   <Header/>
+    //   <Share/>
+    //   <Footer/>
+    // </div>
   );
 }
 
