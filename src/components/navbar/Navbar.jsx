@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./navbar.css";
 import logoIcon from "../../assets/logo.png";
 import logoName from "../../assets/SkinClinic.png";
