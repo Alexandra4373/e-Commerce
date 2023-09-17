@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+import { Navbar, Footer } from "./../components";
+import { BrowseHomeData } from "./Data/BrowseData";
+import { HomeImagesData } from "./Data/HomeData";
 import "./home.css";
-// import BrowseHomeData from "../Data/BrowseData";
-// import HomeImagesData from "../Data/HomeData";
 import Crendenza from "../../assets/Credenza.png";
 import ChaiseLounge from "../../assets/Chaise Lounge.png";
 import ChinaCabinet from "../../assets/China Cabinet.png";
