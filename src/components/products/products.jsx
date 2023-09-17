@@ -4,12 +4,10 @@ import HomeImagesData from "../Data/HomeData";
 
 const Browse = () => {
   return (
-	
     <div className="container my-20">
-		<div className="header-products">
-			<h1 className="products">Our Products</h1>
-
-		</div>
+      <div className="header-products">
+        <h1 className="products">Our Products</h1>
+      </div>
       <div className="md:grid md:grid-cols-4 sm:flex sm:flex-wrap justify-center gap-5">
         {HomeImagesData.map((product) => (
           <div className="product-item" key={product.id}>
@@ -42,10 +40,9 @@ const Browse = () => {
       </div>
 
       <div className="showmore">
-          <button className="showmore-button">Show More</button>
-        </div>
+        <button className="showmore-button">Show More</button>
+      </div>
     </div>
-	
   );
 };
 

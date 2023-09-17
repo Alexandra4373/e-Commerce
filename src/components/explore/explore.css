@@ -57,9 +57,9 @@
 .content-innerpeace {
 	background-color: white;
 	opacity: 0.7;
-	width: fit-content;
+	/* width: fit-content;
 	padding-block: 1rem;
-	padding-inline: 2rem;
+	padding-inline: 2rem; */
 }
 
 .content-top {
