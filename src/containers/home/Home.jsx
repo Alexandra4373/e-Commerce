@@ -1,21 +1,13 @@
 import React from "react";
 import "./home.css";
 import { Navbar, Footer } from "../../components";
-import { BrowseHomeData } from "../../components/Data/BrowseData";
-import { HomeImagesData } from "../../components/Data/HomeData";
+import { BrowseHomeData, HomeImagesData } from "../Data";
+// import { HomeImagesData } from "../../Data";
 import ChaiseLounge from "../../assets/Chaise Lounge.png";
 import ChinaCabinet from "../../assets/China Cabinet.png";
 import RightArrowIcon from "../../assets/right arrow.png";
 // import Indicator from "../../assets/Indicator.png";
-import Divan from "../../assets/Divan.png";
-import EamesChair from "../../assets/Eames Chair.png";
-import Futon from "../../assets/Futon.png";
-import MurphyBed from "../../assets/Murphy Bed.png";
-import Ottoman from "../../assets/Ottoman.png";
-import Pouf from "../../assets/Pouf.png";
-import TrestleTable from "../../assets/Trestle Table.png";
-import Tuffet from "../../assets/Tuffet.png";
-import BuffetTable from "../../assets/Buffet Table.png";
+import Share from "../../assets/share.png";
 
 const Home = () => {
   return (
@@ -152,15 +144,7 @@ const Home = () => {
         </div>
 
         <div className="share-gallery">
-          <img src={Ottoman} alt="logo" />
-          <img src={EamesChair} alt="logo" />
-          <img src={Divan} alt="logo" />
-          <img src={TrestleTable} alt="logo" />
-          <img src={BuffetTable} alt="logo" />
-          <img src={MurphyBed} alt="logo" />
-          <img src={Pouf} alt="logo" />
-          <img src={Tuffet} alt="logo" />
-          <img src={Futon} alt="logo" />
+          <img src={Share} alt="logo" />
         </div>
       </div>
 
