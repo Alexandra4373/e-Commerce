@@ -11,18 +11,10 @@ const App = () => {
 				<Route path="" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/shop" element={<Shop />} />
 				<Route path="/team" element={<Contact/>} />
 				
 			</Routes>
 		</React.Fragment>
-    // <div className="App">   
-    // <Home/> 
-    //   <Navbar/>
-    //   <Header/>
-    //   <Share/>
-    //   <Footer/>
-    // </div>
   );
 }
 
