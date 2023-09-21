@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Navbar, Footer } from "../../components";
-import { BrowseHomeData, HomeImagesData } from "../Data";
+import { BrowseHomeData, HomeImagesData } from "../../Data";
 // import { HomeImagesData } from "../../Data";
 import ChaiseLounge from "../../assets/Chaise Lounge.png";
 import ChinaCabinet from "../../assets/China Cabinet.png";
