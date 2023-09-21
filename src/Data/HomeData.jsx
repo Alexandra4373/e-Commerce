@@ -1,14 +1,13 @@
-import syltherine from '../../assets/Shop/syltherine.png';
-import leviosa from '../../assets/Shop/leviosa.png';
-import lolito from '../../assets/Shop/lolito.png';
-import respira from '../../assets/Shop/respira.png';
-import grifo from '../../assets/Shop/grifo.png';
-import muggo from '../../assets/Shop/muggo.png';
-import pingky from '../../assets/Shop/pingky.png';
-import potty from '../../assets/Shop/potty.png';
+import syltherine from "../assets/Shop/syltherine.png";
+import leviosa from "../assets/Shop/leviosa.png";
+import lolito from "../assets/Shop/lolito.png";
+import respira from "../assets/Shop/respira.png";
+import grifo from "../assets/Shop/grifo.png";
+import muggo from "../assets/Shop/muggo.png";
+import pingky from "../assets/Shop/pingky.png";
+import potty from "../assets/Shop/potty.png";
 
-
-const HomeImagesData = [
+export const HomeImagesData = [
 	{
 		id: 1,
 		name: "Syltherine",
@@ -73,5 +72,3 @@ const HomeImagesData = [
 		sellingprice: "Rp 500.000",
 	},
 ];
-
-export default HomeImagesData;
