@@ -295,13 +295,30 @@ h2 {
 	justify-content: flex-end;
 }
 
-.explore__gallery-images img {
-	height: 85%;
-}
 
-/* .indicator{
+
+.content_center {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text within each child */
+  }
+  
+  .content_center h1 {
+    margin: 10px; /* Remove default margin to avoid extra space */
+    font-size: 32px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .content_center p {
+    margin: 10px; /* Remove default margin to avoid extra space */
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+  
+  }
+
+  .share-gallery{
 	display: flex;
-	align-items: flex-end;
-	width: 50%;
-	height: 50%;
-} */
+  }
